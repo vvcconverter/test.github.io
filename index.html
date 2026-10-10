@@ -1,44 +1,20 @@
-<!DOCTYPE html>
-<html lang="ru" dir="ltr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Идеальный сайт с максимальными показателями Lighthouse в 2025 году">
-    <meta name="keywords" content="идеальный сайт, Lighthouse, 100 баллов, оптимизация">
-    <meta name="author" content="Ваше Имя">
-    <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#4CAF50">
-    <link rel="canonical" href="https://test.github.io/">
-    <!-- Фавиконки -->
-    <link rel="icon" type="image/svg+xml" href="https://example.com/favicon.svg">
-    <link rel="alternate icon" href="https://example.com/favicon.ico">
-    <link rel="apple-touch-icon" href="https://example.com/apple-touch-icon.png">
-    <link rel="manifest" href="https://example.com/site.webmanifest">
-    <title>Идеальный сайт 2025</title>
-    <!-- Подключение минифицированного CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Предзагрузка шрифтов (если используются) -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"></noscript>
-    <!-- Предзагрузка критических ресурсов -->
-    <link rel="preload" href="https://example.com/image.avif" as="image">
-</head>
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101827"><meta name="description" content="FastSite — демо быстрой загрузки, кеширования и офлайн-режима."><title>FastSite — быстро по умолчанию</title><link rel="stylesheet" href="assets/style.css"><link rel="manifest" href="manifest.webmanifest"></head>
 <body>
-    <header>
-        <h1>Добро пожаловать на идеальный сайт 2025!</h1>
-    </header>
-    <main>
-        <p>Этот сайт создан для демонстрации идеальных показателей в Lighthouse.</p>
-        <!-- Оптимизированное изображение в формате AVIF -->
-        <img src="https://example.com/image.avif" alt="Описание изображения" loading="lazy" width="600" height="400" style="max-width: 100%; height: auto;">
-        <!-- Кнопка с ARIA-атрибутом для доступности -->
-        <button aria-label="Пример кнопки">Нажми меня</button>
-    </main>
-    <footer>
-        <p>&copy; 2025 Идеальный сайт</p>
-    </footer>
-    <!-- Подключение минифицированного JavaScript -->
-    <script src="script.js" defer></script>
-</body>
-</html>
+<header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">F</span> FastSite</a><nav><a href="#features">Возможности</a><a href="lab.html">Лаборатория</a><a class="nav-cta" href="#how">Как работает</a></nav><button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button></header>
+<main>
+<section class="hero wrap"><div class="hero-copy"><p class="eyebrow"><span class="pulse"></span> FASTSITE / WEB PERFORMANCE LAB</p><h1>Сайт, который<br><span>не заставляет ждать.</span></h1><p class="lead">Быстрые переходы, умное кеширование и офлайн-доступ. Миниатюрная лаборатория, чтобы тестировать реальные веб-технологии в обычном браузере.</p><div class="hero-actions"><a class="button primary" href="lab.html">Открыть лабораторию <span>↗</span></a><a class="button secondary" href="#features">Изучить возможности</a></div><div class="trust-row"><span>✓ Без фреймворка</span><span>✓ Обычный браузер</span><span>✓ Готово к публикации</span></div></div>
+<div class="hero-visual"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="speed-core"><span class="core-bolt">↯</span><strong>FAST</strong><small>LOAD ENGINE</small></div><div class="float-card card-top"><span class="mini-icon">⚡</span><span><b>Предзагрузка</b><small>до клика</small></span><i>●</i></div><div class="float-card card-bottom"><span class="mini-icon purple">◈</span><span><b>Локальный кеш</b><small>меньше запросов</small></span><i class="green-dot">●</i></div><div class="visual-caption">SPEED IS A FEATURE <span>01 — 04</span></div></div></section>
+<section class="metrics wrap"><div><strong>01</strong><span>Предзагрузка страниц</span></div><div><strong>02</strong><span>Кеширование ресурсов</span></div><div><strong>03</strong><span>Офлайн-режим</span></div><div><strong>04</strong><span>Измеримые результаты</span></div></section>
+<section class="section wrap" id="features"><div class="section-heading"><div><p class="eyebrow">НАШИ ИНСТРУМЕНТЫ</p><h2>Каждая миллисекунда<br>имеет значение.</h2></div><p>Не магия, а комбинация браузерных механизмов. Выбираем подходящие технологии и проверяем эффект измерениями.</p></div>
+<div class="feature-grid">
+<article class="feature-card featured"><div class="feature-top"><span class="feature-icon">↗</span><span class="tag">01 / NAVIGATION</span></div><h3>Quicklink</h3><p>Предварительно загружает подходящие ссылки, когда они попадают в поле зрения, используя свободное время браузера.</p><a href="https://github.com/GoogleChromeLabs/quicklink" target="_blank" rel="noreferrer">Посмотреть проект ↗</a></article>
+<article class="feature-card"><div class="feature-top"><span class="feature-icon purple">▧</span><span class="tag">02 / OFFLINE</span></div><h3>PWA и Service Worker</h3><p>Сохраняет выбранные файлы локально, ускоряет повторные открытия и помогает работать без сети.</p><a href="https://github.com/vite-pwa/vite-plugin-pwa" target="_blank" rel="noreferrer">Vite PWA ↗</a></article>
+<article class="feature-card"><div class="feature-top"><span class="feature-icon blue">⌁</span><span class="tag">03 / PRERENDER</span></div><h3>Speculation Rules</h3><p>Позволяет поддерживаемому браузеру заранее подготовить страницу, чтобы переход мог ощущаться мгновенным.</p><a href="https://github.com/GoogleChromeLabs/web-perf-demos" target="_blank" rel="noreferrer">Демо Chromium ↗</a></article>
+<article class="feature-card"><div class="feature-top"><span class="feature-icon orange">⤓</span><span class="tag">04 / COMPRESSION</span></div><h3>Brotli и компактные файлы</h3><p>Сжатие уменьшает объём передачи. Обычно лучше отдавать Brotli с сервера, а не скачивать пакет и распаковывать его вручную.</p><a href="https://github.com/httptoolkit/brotli-wasm" target="_blank" rel="noreferrer">brotli-wasm ↗</a></article>
+<article class="feature-card"><div class="feature-top"><span class="feature-icon green">⇄</span><span class="tag">05 / TRANSITIONS</span></div><h3>Swup</h3><p>Делает переходы между страницами плавнее. Это дополнительный слой — для базовой скорости он не обязателен.</p><a href="https://github.com/swup/swup" target="_blank" rel="noreferrer">Посмотреть Swup ↗</a></article>
+<article class="feature-card dark-card"><div class="feature-top"><span class="feature-icon dark-icon">⌘</span><span class="tag">LIVE DEMO</span></div><h3>Проверь сам</h3><p>Перейди на вторую страницу, вернись назад и отключи сеть после первого открытия, чтобы проверить локальный кеш.</p><a href="lab.html">Запустить тест →</a></article>
+</div></section>
+<section class="how-section" id="how"><div class="wrap how-inner"><div><p class="eyebrow">КАК ЭТО РАБОТАЕТ</p><h2>Сначала подготовить.<br>Потом открыть.</h2><p class="how-copy">Браузер загружает только то, что уместно и безопасно предзагрузить. Service Worker сохраняет файлы, а обычная навигация остаётся доступной даже без поддержки новых API.</p><a class="text-link" href="lab.html">Перейти к тесту →</a></div><div class="steps"><div class="step"><span>01</span><div><b>Посетитель видит ссылку</b><small>Логика предзагрузки замечает ссылки на странице.</small></div><i>◉</i></div><div class="step"><span>02</span><div><b>Браузер загружает заранее</b><small>Только при подходящих условиях и с учётом экономии трафика.</small></div><i>↗</i></div><div class="step"><span>03</span><div><b>Файлы остаются в кеше</b><small>Service Worker обслуживает повторные запросы локально.</small></div><i>▤</i></div><div class="step"><span>04</span><div><b>Переход ощущается быстрее</b><small>Результат зависит от браузера, сети и кеша.</small></div><i class="step-check">✓</i></div></div></div></section>
+<section class="bottom-cta wrap"><div><p class="eyebrow">ГОТОВ К ЭКСПЕРИМЕНТУ?</p><h2>Скорость можно измерить.</h2><p>Открой лабораторию и проверь кеширование на своём устройстве.</p></div><a class="button primary" href="lab.html">Начать тест ↗</a></section>
+</main><footer class="footer wrap"><a class="brand" href="index.html"><span class="brand-mark">F</span> FastSite</a><span>Небольшой проект о быстрой сети.</span><span id="network-status" class="status"><i></i> Проверяем соединение…</span></footer><script src="assets/app.js" defer></script></body></html>
